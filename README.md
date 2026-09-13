@@ -1,1 +1,16 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My First Page</title>
+	</head>
+	<body>
+		<h1>Hello World!</h1>
+		<nav>
+			<a href="">Lab 1</a> |
+			<a href="">Lab 2</a> |
+			<a href="">Lab 3</a>
+		</nav>
+		<p>I'm Elizabeth Cline, This is my test page.</p>
+		<p>I'm a student at Dallas College (Cedar Valley). I took this class to see if I'm interested in web development/coding.</p>
+	</body>
+</html>
