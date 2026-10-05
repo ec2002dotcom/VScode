@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAILY QUOTES</title>
+    <style>
+.myDiv {
+  border: 5px outset purple;
+  background-color: darkgrey;
+  text-align: center;
+}
+</style>
+<link rel="stylesheet" href="mystyle.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="center">Quote of The Day</h1>
+    </header>
+    <main>
+      <section>
+          <p>
+            <script>
+              var quotes = ["A Watched Pot Never Boils.", "The Early Bird Gets The Worm.", "Actions Speak Louder Than Words.", "Better Late Than Never.", "Practice Makes Perfect."]
+var yourNumber = prompt("Please enter a number.");
+var index= yourNumber % 5
+var remainder = quotes[index]
+document.write(remainder);
+              </script>
+</p>
+<p>
+<script>
+var websites = ["https://penguinchat.com/", "https://radio.garden/listen/-1-pure-alternative-radio/q6jUpKaw", "https://www.boredbutton.com/"] ;
+var yourSite = prompt("Please enter your favorite website.");
+var index= yourSite
+var remainder = websites[index]
+document.write(remainder);
+</script>
+          </p>
+        <div class="myDiv"><nav>
+			<a href="https://ec2002dotcom.github.io/VScode/">Back></a> |
+
+		</nav></div>
+      </section>
+    </main>
+    <footer>
+      <p id="footer"><a href="https://github.com/ec2002dotcom">Author</a></p>
+    </footer>
+  </body>
+</html>
