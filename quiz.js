@@ -1,3 +1,5 @@
+
+
 // set up question and matching answer arrays
 var quizQuest = ['What is a rare type of clover?', 'What are young dogs called?', 'What is it called when the sun overshadows the moon?'];
 var quizAns = ['Four leaf clover', 'Puppies', 'A Lunar Eclipse'];

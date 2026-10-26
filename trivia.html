@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+.myDiv {
+  border: 5px outset purple;
+  background-color: darkgrey;
+  text-align: center;
+}
+</style>
+<link rel="stylesheet" href="mystyle.css">
+<script src="trivia.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="center">QUIZ</h1>
+    </header>
+    <main>
+      <section>
+        <h2>About</h2>
+          <p class="center">
+            <p>Today is</p><p id="demo"></p>
+
+<script>
+const time = new Date();
+document.getElementById("demo").innerHTML = time;
+</script>
+<script>
+              var quotes = ["A Watched Pot Never Boils.", "The Early Bird Gets The Worm.", "Actions Speak Louder Than Words.", "Better Late Than Never.", "Practice Makes Perfect."]
+var yourNumber = prompt("Please enter a number.");
+var index= yourNumber % 5
+var remainder = quotes[index]
+document.write(remainder);
+              </script>
+            <script>var quizQuest = ['What is a rare type of clover?', 'What are young dogs called?', 'What is it called when the sun overshadows the moon?'];
+var quizAns = ['Four leaf clover', 'Puppies', 'A Lunar Eclipse']; </script>
+            <script>function calcAvg(val1, val2, val3) {
+	avg = (val1 + val2 + val3) / 3;
+	return avg;
+}
+ans = calcAvg(10, 20, 30);</script>
+<script>
+	// call mathQuiz function
+	var score = quiz();
+	// display the results on the screen
+	document.write('Your score is ' + score);
+</script>
+            
+</p>
+       
+			<div class="myDiv"><nav>
+			<a href="https://ec2002dotcom.github.io/VScode/">Back></a> |
+		</nav></div>
+      </section>
+    </main>
+    <footer>
+      <p id="footer"><a href="https://github.com/ec2002dotcom">Author</a></p>
+    </footer>
+  </body>
+</html>
