@@ -19,13 +19,13 @@ var questions = [
 let count = 0;
 
 function playGame() {
-    var currentQuestion = questions[0]; 
+    var currentQuestion = questions[0][0]; // Access the first question in the array
     document.getElementById('question').innerHTML = currentQuestion;
     // 2. Remove the question from the array using .shift() function.
     questions.shift();
 
     // 3. Access the correct answer index from the question array, now at index[0].
-    var correctIndex = questions[0];
+    var correctIndex = questions[0][1]; // Access the correct answer index
 
     // 4. Remove the correct answer index from the array using .shift() function.
     questions.shift();
